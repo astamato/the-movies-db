@@ -1,10 +1,8 @@
-package creativehothouse.cryptocurrencyapp.app.builder
+package com.jet.alejandrastamato.themoviesdb.app.builder
 
-import android.app.Service
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.jet.alejandrastamato.themoviesdb.app.builder.ApplicationScope
 import com.jet.alejandrastamato.themoviesdb.app.network.MoviesService
 import dagger.Module
 import dagger.Provides
@@ -24,9 +22,9 @@ class NetworkModule(private var context: Context) {
     const val HTTP_CACHE_DIR_NAME = "okhttp_cache"
     const val DISK_CACHE_SIZE = 50 * 1024 * 1024 // 50MB
 
-    const val CRYPTO_CURRENCIES_SERVICE_BASE_URL = "https://api.themoviedb.org/3/"
+    const val CRYPTO_CURRENCIES_SERVICE_BASE_URL = "https://api.themoviedb.org/"
 
-    const val DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+    const val DATE_FORMAT = "yyyy-MM-dd"
   }
 
   @Provides

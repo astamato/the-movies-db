@@ -9,7 +9,7 @@ interface MoviesService {
 
   //https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=894343bc55da7fc2cf4e7c22db22a3dc
 
-  @GET("/discover/movie")
+  @GET("/3/discover/movie")
   fun getMovieList(@Query("api_key") apiKey: String, @Query("sort_by") sortBy: String): Observable<MovieListResponseModel>
 
 }

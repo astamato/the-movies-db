@@ -6,8 +6,8 @@ import io.reactivex.Observable
 
 interface MovieListInteractor {
 
-  fun getMovieList(coinId: Int): Observable<MovieListResponseModel>
+  fun getMovieList(): Observable<MovieListResponseModel>
 
-  fun getMovieDetails(coinId: Int): Observable<MovieDetails>
+  fun getMovieDetails(): Observable<MovieDetails>
 
 }

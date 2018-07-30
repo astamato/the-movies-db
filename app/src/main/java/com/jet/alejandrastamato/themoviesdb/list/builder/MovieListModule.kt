@@ -1,4 +1,4 @@
-package creativehothouse.cryptocurrencyapp.detail.builder
+package com.jet.alejandrastamato.themoviesdb.list.builder
 
 import android.app.Activity
 import com.jet.alejandrastamato.themoviesdb.app.builder.ApplicationScope

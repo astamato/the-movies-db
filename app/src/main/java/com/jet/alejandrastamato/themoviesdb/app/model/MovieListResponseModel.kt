@@ -1,3 +1,9 @@
 package com.jet.alejandrastamato.themoviesdb.app.model
 
-data class MovieListResponseModel(val name: String)
+import com.google.gson.annotations.SerializedName
+
+data class MovieListResponseModel(
+    val results: ArrayList<Movie>, val page: Int,
+    @SerializedName("total_results") val itemsPerPage: Int,
+    @SerializedName("total_pages") val totalPages: Int
+)

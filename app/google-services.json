@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "354823322468",
+    "firebase_url": "https://the-movies-db.firebaseio.com",
+    "project_id": "the-movies-db",
+    "storage_bucket": "the-movies-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354823322468:android:64e575c04cd80a6f",
+        "android_client_info": {
+          "package_name": "com.jet.alejandrastamato.themoviesdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354823322468-2l5v6p0lsghore9sid4a5atv4ts53tdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jet.alejandrastamato.themoviesdb",
+            "certificate_hash": "41c85050dbfc6e17e816a1cb8413cbe4c5945e54"
+          }
+        },
+        {
+          "client_id": "354823322468-5fo18e11vq5u9oklu64iq7f8a6308rsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ382RdvPc-hOvMTVzZ3Lox6uXSmPlYho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354823322468-5fo18e11vq5u9oklu64iq7f8a6308rsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

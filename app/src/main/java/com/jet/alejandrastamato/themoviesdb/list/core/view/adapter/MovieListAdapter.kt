@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import com.jakewharton.rxbinding2.view.clicks
 import com.jet.alejandrastamato.themoviesdb.R
 import com.jet.alejandrastamato.themoviesdb.app.model.Movie
@@ -19,8 +20,7 @@ class MovieListAdapter(private val movies: List<Movie>) : RecyclerView.Adapter<M
   }
 
   override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
-//    holder.subject.text = tickets.get(position).subject
-//    holder.description.text = tickets.get(position).description
+    holder.title.text = movies[position].title
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
@@ -41,8 +41,7 @@ class MovieListAdapter(private val movies: List<Movie>) : RecyclerView.Adapter<M
       itemView.clicks().map { movies[layoutPosition] }.subscribe(clickEvent)
     }
 
-//    val subject = itemView.findViewById(R.id.subject) as TextView
-//    val description = itemView.findViewById(R.id.description) as TextView
+    val title = itemView.findViewById(R.id.title) as TextView
 
   }
 
